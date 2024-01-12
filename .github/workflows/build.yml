@@ -21,6 +21,9 @@ jobs:
       - name: Push Docker Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/docker-explorer:latest
 
+      - name: Sucess Build
+        run: echo "### Build completed successfully! :rocket:" >> $GITHUB_STEP_SUMMARY
+
   deploy:
     runs-on: ubuntu-latest
     needs:
