@@ -21,9 +21,6 @@ jobs:
       - name: Push Docker Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/docker-explorer:latest
 
-      - name: Sucess Build
-        run: echo "### Build completed successfully! :rocket:" >> $GITHUB_STEP_SUMMARY
-
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
@@ -31,3 +28,6 @@ jobs:
           build_dir: build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sucess Build
+        run: echo "### Build completed successfully! :rocket:" >> $GITHUB_STEP_SUMMARY
