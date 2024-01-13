@@ -29,5 +29,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
 
-      - name: Sucess Build
+      - name: Success Build
         run: echo "### Build completed successfully! :rocket:" >> $GITHUB_STEP_SUMMARY
