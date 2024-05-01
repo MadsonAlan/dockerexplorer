@@ -23,7 +23,7 @@ export function TogleTheme(){
       <DropdownMenuItem onClick={() => setTheme("dark")}>
         Dark
       </DropdownMenuItem>
-      <DropdownMenuItem onClick={() => setTheme("system")}>
+      <DropdownMenuItem defaultChecked onClick={() => setTheme("system")}>
         System
       </DropdownMenuItem>
     </DropdownMenuContent>
