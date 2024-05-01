@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 import { MenuNavigation } from '@/components/personal/navigationMenu'
+import { Toaster } from '@/components/ui/toaster'
 
 const inter = Inter({ subsets: [ 'latin' ] })
 
@@ -31,10 +32,10 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <MenuNavigation />
           <div className="flex min-h-screen items-center justify-center">
             {children}
           </div>
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
