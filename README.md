@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Docker Explorer
 
-## Getting Started
+## Sobre o Projeto
 
-First, run the development server:
+O Docker Explorer é uma aplicação web interativa que facilita o aprendizado e a utilização de comandos Docker. Com uma interface amigável, os usuários podem explorar uma variedade de comandos Docker, entender suas funções e obter exemplos práticos que podem ser copiados diretamente para uso.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: Um framework React para produção que garante a melhor experiência de usuário e desempenho.
+- **Shadcn UI**: Uma biblioteca de componentes UI para React que permite construir interfaces com eficiência.
+- **Tailwind CSS**: Um framework CSS para estilização rápida e responsiva.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Como Usar
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Para começar a usar o Docker Explorer, siga estes passos:
 
-## Learn More
+1. Acesse Docker Explorer https://dockerexplorer-two.vercel.app/.
+2. Navegue pela lista de comandos Docker disponíveis.
+3. Clique em um comando para ver sua descrição e um exemplo de uso.
+4. Copie o exemplo para a área de transferência se desejar testá-lo em seu ambiente local.
 
-To learn more about Next.js, take a look at the following resources:
+## Contribuições
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contribuições são sempre bem-vindas! Se você tem alguma sugestão para melhorar o Docker Explorer, por favor, abra uma issue ou envie um pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Esse projeto tem como base o repositório https://github.com/ElbertRibeiro/dockerexplorer
