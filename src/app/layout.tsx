@@ -32,7 +32,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="flex min-h-screen items-center justify-center">
+          <div className='w-6/12 max-w-[980px] m-auto'>
             {children}
           </div>
           <Toaster />

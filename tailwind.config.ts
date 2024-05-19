@@ -19,6 +19,10 @@ const config = {
     },
     extend: {
       colors: {
+        'docker-blue':'#1D63ED',
+        'docker-deep-blue':'#00084D',
+        'docker-black':'#17191E',
+        'docker-acent':'#E5F2FC',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
